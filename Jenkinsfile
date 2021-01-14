@@ -3,7 +3,8 @@ pipeline{
     stages{
         stage("build"){
             steps{
-                sh "mvn -v"
+                echo "Hello jenkins"
+
             }
         }
     }
